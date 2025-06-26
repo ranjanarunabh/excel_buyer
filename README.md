@@ -21,6 +21,8 @@ Correct Text Case: Use PROPER(), UPPER() or LOWER() to fix inconsistent text ent
 
 Convert Currency (if needed): Normalize sales figures to ₹ or $ using multiplication.
 
+*excel Code for age_bracket -=IF(L1:L1001>=55,"old",IF(L1:L1001>=31,"middle_age",IF(L1:L1001<31,"adolescent","invalid")))
+
  2. Charts and Visualizations:
 Use Pivot Charts, Slicers, and Combo Charts to visualize KPIs.
 
